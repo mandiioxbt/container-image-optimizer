@@ -1,12 +1,12 @@
 # Container Image Optimizer
 
-Docker image optimization: multi-stage builds, layer analysis.
+Docker image optimization: multi-stage builds, layer analysis, vulnerability scanning.
 
 ## Features
-- Layer caching analysis
-- Multi-stage build generation
-- Base image recommendation
-- Security vulnerability scanning
+- Layer cache hit analysis
+- Auto-generate multi-stage Dockerfiles
+- Base image recommendation (security + size)
+- CVE vulnerability scanning
 
 ## Results
 | Image | Before | After | Reduction |
@@ -14,5 +14,4 @@ Docker image optimization: multi-stage builds, layer analysis.
 | Python API | 1.2GB | 180MB | 85% |
 | Node.js | 900MB | 120MB | 87% |
 
-## License
-MIT
+## License: MIT
